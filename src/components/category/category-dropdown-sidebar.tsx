@@ -5,7 +5,7 @@ import Scrollbar from "@components/ui/scrollbar";
 import CategoryListLoader from "@components/ui/loaders/category-loader";
 import NotFound from "@components/common/not-found";
 import { useCategoriesQuery } from "@data/category/use-categories.query";
-
+ 
 const CategoryDropdownSidebar = () => {
   const { query } = useRouter();
   const { type } = query;
