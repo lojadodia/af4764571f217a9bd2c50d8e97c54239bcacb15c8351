@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./base.css";
+
+/* Write your own custom base styles here */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .scroll-behavior {
+    margin-top: -120px;
+  }
+  @media screen and (min-width: 768px) {
+    .scroll-behavior {
+      margin-top: -98px;
+    }
+  }
+  hr {
+    border-color:#b2b2b2
+  }
+
+  body {
+    @apply font-body;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+
+  /*-----------------------*/
+
+
+
+
+}
+
+.min-h-140{
+  min-height:40vh !important
+}
+
+@import "./custom-plugins.css";
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+@media screen and (min-width: 760px) {
+  .no-desktop {
+    display: none;
+  }
+  
+}
+
+.shadow-350,
+.shadow-downfall-lg {
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.shadow-downfall-lg {
+	--tw-shadow: rgba(0, 0, 0, 0.16) 0px 8px 16px
+}
+
+.shadow-downfall-xs {
+	--tw-shadow: rgba(0, 0, 0, 0.14) 0px 1px 2px
+}
+
+.shadow-300,
+.shadow-downfall-xs {
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.shadow-300 {
+	--tw-shadow: rgba(0, 0, 0, 0.16) 0px 0px 6px
+}
+
+.shadow-downfall-sm {
+	--tw-shadow: rgba(0, 0, 0, 0.14) 0px 2px 4px
+}
+
+.shadow-500,
+.shadow-downfall-sm {
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.shadow-500 {
+	--tw-shadow: rgba(0, 0, 0, 0.17) 0px 0px 12px
+}
+
+.shadow-600 {
+	--tw-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.\!shadow-none {
+	--tw-shadow: 0 0 #0000!important;
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)!important
+}
+
+.shadow {
+	--tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
+}
+
+.shadow,
+.shadow-downfall {
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.shadow-downfall {
+	--tw-shadow: rgba(0, 0, 0, 0.14) 0px 6px 12px
+}
+.transition-shadow {
+	transition-property: box-shadow;
+	transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+	transition-duration: .15s
+}
+
+
+@layer utilities {
+    @variants responsive {
+        .masonry {
+            column-gap: 1.5em;
+            column-count: 1;
+        }
+        .masonry-lg {
+            column-gap: 1.5em;
+            column-count: 3;
+        }
+        .masonry-md {
+            column-gap: 1.5em;
+            column-count: 3;
+        }
+        .masonry-xl {
+          column-gap: 1.5em;
+          column-count: 3;
+      }
+        .break-inside {
+            break-inside: avoid;
+        }
+
+    }
+}

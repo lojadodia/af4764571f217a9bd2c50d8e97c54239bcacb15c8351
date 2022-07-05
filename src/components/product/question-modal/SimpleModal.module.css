@@ -1,0 +1,273 @@
+.backgroundContent{
+    background:  #33333373 ; 
+    width: 100%;
+    height: 100vh;
+    z-index: 61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+} 
+
+.container{
+    width: 600px;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.access{
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #e67700;
+    color:#fff;
+    font-weight: 100;
+    padding: 14px;
+    border-radius: 5px;
+    
+}
+.buttonYes {
+    background-color: #82c91e;
+    color:#fff;
+    font-weight: 100;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.h1{
+    font-size: 20px;
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 1663px){
+    .backgroundContent {
+        transform: translateX(10%);   
+    }
+} 
+@media screen and (max-width: 1412px){
+    .backgroundContent {
+        transform: translateX(20%);   
+    }
+} 
+@media screen and (max-width: 1183px){
+    .backgroundContent {
+        transform: translateX(30%);   
+    }
+} 
+@media screen and (max-width: 1080px){
+    .backgroundContent {
+        transform: translateX(40%);   
+    }
+} 
+@media screen and (max-width: 859px){
+    .backgroundContent {
+        transform: translateX(45%);   
+    }
+} 
+@media screen and (max-width: 792px){
+    .backgroundContent {
+        transform: translateX(52%);   
+    }
+} 
+@media screen and (max-width: 764px){
+    .backgroundContent {
+        transform: translateX(44%);   
+    }
+} 
+@media screen and (max-width: 758px){
+    .backgroundContent {
+        transform: translateX(44%);   
+    }
+    .container {
+        text-align: center;
+        height: 150px;
+        width: 250px;
+        
+    }
+    .h1{
+        font-size: 16px;
+    }
+} 
+@media screen and (max-width: 706px){
+    .backgroundContent {
+        transform: translateX(50%);   
+    }
+    
+} 
+@media screen and (max-width: 630px){
+    .backgroundContent {
+        transform: translateX(60%);   
+    }
+} 
+@media screen and (max-width: 590px){
+    .backgroundContent {
+        transform: translateX(70%);   
+    }
+} 
+@media screen and (max-width: 544px){
+    .backgroundContent {
+        transform: translateX(80%);   
+    }
+} 
+@media screen and (max-width: 514px){
+    .backgroundContent {
+        transform: translateX(90%);   
+    }
+} 
+@media screen and (max-width: 488px){
+    .backgroundContent {
+        transform: translateX(92%);   
+    } 
+} 
+@media screen and (max-width: 480px){
+    .backgroundContent {
+        transform: translateX(94%);   
+    }  
+} 
+@media screen and (max-width: 474px){
+    .backgroundContent {
+        transform: translateX(97%);   
+    }
+} 
+@media screen and (max-width: 466px){
+    .backgroundContent {
+        transform: translateX(99%);   
+    }  
+} 
+@media screen and (max-width: 463px){
+    .backgroundContent {
+        transform: translateX(100%);   
+    }
+} 
+@media screen and (max-width: 459px){
+    .backgroundContent {
+        transform: translateX(102%);   
+    }
+} 
+@media screen and (max-width: 453px){
+    .backgroundContent {
+        transform: translateX(103%);   
+    }
+} 
+@media screen and (max-width: 447px){
+    .backgroundContent {
+        transform: translateX(105%);   
+    }
+} 
+@media screen and (max-width: 444px){
+    .backgroundContent {
+        transform: translateX(106%);   
+    }
+} 
+@media screen and (max-width: 440px){
+    .backgroundContent {
+        transform: translateX(107%);   
+    }
+} 
+@media screen and (max-width: 432px){
+    .backgroundContent {
+        transform: translateX(109%);   
+    }
+} 
+@media screen and (max-width: 424px){
+    .backgroundContent {
+        transform: translateX(111%);   
+    }
+} 
+@media screen and (max-width: 420px){
+    .backgroundContent {
+        transform: translateX(112%);   
+    }
+} 
+@media screen and (max-width: 418px){
+    .backgroundContent {
+        transform: translateX(112.5%);   
+    }
+}
+@media screen and (max-width: 414px){
+    .backgroundContent {
+        transform: translateX(114%);   
+    }
+} 
+@media screen and (max-width: 412px){
+    .backgroundContent {
+        transform: translateX(114.5%);   
+    }
+} 
+@media screen and (max-width: 408px){
+    .backgroundContent {
+        transform: translateX(115.5%);   
+    }
+} 
+@media screen and (max-width: 404px){
+    .backgroundContent {
+        transform: translateX(116.5%);   
+    }
+} 
+@media screen and (max-width: 400px){
+    .backgroundContent {
+        transform: translateX(117.5%);   
+    }
+} 
+@media screen and (max-width: 393px){
+    .backgroundContent {
+        transform: translateX(119.5%);   
+    }
+} 
+@media screen and (max-width: 390px){
+    .backgroundContent {
+        transform: translateX(120%);   
+    }
+} 
+@media screen and (max-width: 385px){
+    .backgroundContent {
+        transform: translateX(122%);   
+    }
+} 
+@media screen and (max-width: 380px){
+    .backgroundContent {
+        transform: translateX(123%);   
+    }
+} 
+@media screen and (max-width: 375px){
+    .backgroundContent {
+        transform: translateX(125%);   
+    }
+} 
+@media screen and (max-width: 360px){
+    .backgroundContent {
+        transform: translateX(130%);   
+    }
+} 
