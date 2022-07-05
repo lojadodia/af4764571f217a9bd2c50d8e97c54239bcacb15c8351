@@ -9,5 +9,5 @@ services:
         APP_TITLE: ${APP_TITLE}
         APP_DESCRIPTION: ${APP_DESCRIPTION}
         APP_ICON: ${APP_ICON}
-    ports:
+    - ports:
       - "${APP_PORT}":3001
