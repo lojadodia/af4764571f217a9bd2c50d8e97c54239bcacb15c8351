@@ -5,9 +5,9 @@ services:
     build:
       context: .
       args:
-        API_URL: ${API_URL}
+        API_URL: ${APP_URL}
         APP_TITLE: ${APP_TITLE}
         APP_DESCRIPTION: ${APP_DESCRIPTION}
         APP_ICON: ${APP_ICON}
     ports:
-      - "${APP_PORT}:3001
+      - "${APP_PORT}":3001
