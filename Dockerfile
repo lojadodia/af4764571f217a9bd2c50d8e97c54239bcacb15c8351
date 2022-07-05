@@ -8,8 +8,14 @@ RUN yarn install --frozen-lockfile
 
 # Rebuild the source code only when needed
 FROM node:alpine AS builder
-ARG HOST_API
-ENV NEXT_PUBLIC_REST_API_ENDPOINT=${HOST_API}
+ARG API_URL
+ARG APP_TITLE
+ARG API_DESCRIPTION
+ARG API_ICON
+ENV NEXT_PUBLIC_REST_API_ENDPOINT=${API_URL}
+ENV NEXT_APP_TITLE=${APP_TITLE}
+ENV NEXT_APP_DESCRIPTION=${API_DESCRIPTION}
+ENV NEXT_APP_ICON=${API_ICON}
 WORKDIR /app
 COPY . .
 COPY --from=deps /app/node_modules ./node_modules
