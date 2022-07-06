@@ -84,7 +84,7 @@
     "@types/i18next": "^13.0.0",
     "@types/js-cookie": "^2.2.6",
     "@types/lodash": "^4.14.168",
-    "@types/node": "^15.0.2",
+    "@types/node": "*",
     "@types/react": "^17.0.5",
     "@types/react-copy-to-clipboard": "^5.0.0",
     "@types/react-datepicker": "^4.1.4",
