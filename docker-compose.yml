@@ -11,3 +11,7 @@ services:
         APP_ICON: ${APP_ICON}
     ports:
       - ${APP_PORT}:3001
+    deploy:
+      restart_policy:
+        condition: always
+
